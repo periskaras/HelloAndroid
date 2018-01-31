@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity"
+    android:background="#ffff">
+
+    <ImageView
+        android:id="@+id/bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/udacity_bg"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/bg_image"
+        android:layout_marginBottom="15dp"
+        android:text="Udacity"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="650-555-5555"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="www.udacity.com"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/website"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="2465 Latham St, Mountain View, CA 94043"
+        android:textSize="12dp" />
+
+</RelativeLayout>
